@@ -1,0 +1,421 @@
+/* Style for e transcope */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  color:#666;
+  width:100%;
+ 
+}
+
+#container{
+  background:#e5e5e5;
+  display:flex;
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
+  max-width:1440px;
+}
+
+a{
+  text-decoration:none;
+  opacity:0.75;
+}
+
+a.btn{
+  border-radius:5px;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-align:center;
+}
+
+.btn{
+  width:150px;
+  height:40px;
+  border:0px;
+  line-height:22px;
+  margin-top:20px;
+}
+
+.btn-report{
+background-color:blueviolet;
+color:#fff;
+}
+
+.header-section{
+  padding-left:70px;
+  padding-right:50px;
+  padding-top:20px;
+  background:url(../pics/bck.png);
+  background-repeat: no-repeat;
+  height: 840px;
+  max-width:1440px;
+}
+
+
+
+.page-header nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+ 
+}
+
+.page-header ul{
+  font-size:22px;
+  display:flex;
+  order: 1;
+  width:40%;
+  justify-content:space-between;
+  list-style-type:none;
+}
+
+.header-content{
+	margin-top:20px;
+}
+
+.header-content h3{
+	font-size:64px;
+	line-height:72px;
+	width:50%;
+}
+
+.header-content p{
+	font-size:22px;
+	line-height:30px;
+	width:50%;
+	font-weight:normal;
+	font-family:inter;
+	font-style:normal;
+}
+
+.header-content .btn{
+	height:60px;
+	width:210px;
+	font-size:18px;
+	line-height:22px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+}
+
+
+
+main{
+  margin-top:-59px;
+  background:blue;
+  height:auto;
+  width:100%;
+}
+
+/** Main section**/
+
+.first-msection{
+  align:center;
+  background:#fff;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.first-msection p{
+  align:center;
+  width:305px;
+  height:180px;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height:25px;
+color: #0B162B;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.frow{
+  flex:20%;
+  padding:59px;
+  text-align:justify;
+}
+
+.frow{
+
+  padding:50px;
+  text-align:justify;
+}
+
+.images{
+  margin-left:10px;
+}
+
+.fh3{
+  text-align:center;
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+
+/*Media  section*/
+
+.media-section{
+  
+  min-height:472px;
+  height:auto;
+  background: #5558DB;
+  display:flex;
+  flex-direction:column;
+}
+
+.media-stories{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding-left:30px;
+	padding-top:10px;
+	padding-right:70px;
+}
+
+.media-stories h1{	
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 30px;
+color: #FFFFFF;	
+}
+
+.media-stories a{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+
+/* identical to box height, or 125% */
+font-feature-settings: 'tnum' on, 'onum' on;
+
+color: #FFFFFF;
+}
+
+
+.media-images{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding-left:50px;
+	padding-right:35px;
+}
+
+
+
+.mimg{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+/* Misssing section part*/
+
+.missing-section{
+  margin-top:30px;
+  padding-left:30px;
+  padding-right:30px;
+  min-height:250px;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+}
+
+
+.missing-head{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	justify-content:space-between;	
+}
+
+.missing-head h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 30px;
+padding-left:80px;
+
+/* identical to box height, or 83% */
+
+color: #5558DB;
+}
+
+.missing-head a{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+padding-right:90px;
+
+/* identical to box height, or 125% */
+font-feature-settings: 'tnum' on, 'onum' on;
+
+color: #5558DB;
+}
+
+.crime-stats img{
+	width:100%;
+	height:600px;
+}
+
+
+/*
+
+.missimg{
+	width:280px;
+}
+
+/* Misssing statistic part*/
+
+
+/* Latest news */
+
+.beating{
+  margin-top:-10px;
+  padding-left:30px;
+  padding-right:30px;
+  min-height:250px;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+}
+
+.beating-head{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	justify-content:space-between;	
+}
+
+.beating-head h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 30px;
+padding-left:80px;
+
+/* identical to box height, or 83% */
+
+color: #5558DB;
+}
+
+.beating-head a{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+margin-top:-10px;
+/* identical to box height, or 125% */
+font-feature-settings: 'tnum' on, 'onum' on;
+
+color: #0B162B;
+}
+
+
+.beating-images{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding-left:50px;
+	padding-right:35px;
+	text-align:center;
+	justify-content:space-around;
+}
+
+.beet{
+	
+	width:352px;
+	height:312px;
+	background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.15);
+}
+
+.bitimg{
+	width:324px;
+    height:222px;
+	width:324px;
+	border:none;
+}
+
+.beet h4{	
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+
+/* identical to box height, or 167% */
+
+color: #0B162B;
+}
+
+.beet small{
+	font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+
+color: #0B162B;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+/* Footer Section*/
+footer{
+  margin-top:20px;
+  background:#fff;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+  line-height:30px;
+}
+
+.foot1{
+	padding-left:90px;
+	padding-right:30px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000;
+}
+
+.foot1 ol{
+	list-style:none;
+}
+
+.ft1{
+	padding-left:30px;
+}
+
+.foot2{
+	width:100%;
+}
+
+
+
+
+
+
+
